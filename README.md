@@ -1,45 +1,21 @@
-🌱 Air Quality Prediction Project
-This project predicts air pollution levels using a machine learning model and provides a simple web app built with Streamlit to view predictions.
+# 🌱 Air Quality Prediction Project
 
-Air pollution impacts health and the environment. This tool helps forecast pollution levels to support better planning and decisions.
+This project predicts air pollutant levels using a trained Machine Learning model and provides an interactive **Streamlit app** for predictions.
 
-📊 Features
-Cleans and prepares air quality data
+## 📊 Features
+✅ Advanced data cleaning and preprocessing  
+✅ Visual exploration of data (correlations, distributions)  
+✅ Model selection with Random Forest and Gradient Boosting  
+✅ Hyperparameter tuning using GridSearchCV  
+✅ Evaluation using R², MAE, RMSE  
+✅ Feature importance visualization  
+✅ Streamlit web app for predictions
 
-Trains and tunes ML models (Random Forest, Gradient Boosting)
+---
 
-Evaluates performance with R², MAE, RMSE
+## 🚀 How to Run Locally
 
-Shows feature importance
-
-Interactive Streamlit web app
-
-🚀 How to Run
-1️⃣ Install dependencies
-Make sure you have Python 3.10+ installed. Then run:
-
-bash
-
-pip install -r requirements.txt
-2️⃣ Start the app
-Run:
-
-bash
-
-streamlit run app.py
-
-
-📂 Project Files
-app.py — Streamlit web app
-
-best_air_quality_model.pkl — trained ML model
-
-requirements.txt — Python dependencies
-
-README.md — project description
-
-LICENSE — MIT license
-
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
+### 1️⃣ Clone this repository
+```bash
+git clone https://github.com/soham070453/air-quality-prediction.git
+cd air-quality-prediction
